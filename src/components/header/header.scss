@@ -1,0 +1,26 @@
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: #61dafb;
+  color: dodgerblue;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 5px solid dodgerblue;
+  &__logo {
+    margin: 0 auto;
+    padding-left: 425px;
+  }
+  &__title {
+    margin: 25px 50px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #282c34;
+  }
+  &__title_name{
+    font-style: italic;
+    font-size: 30px;
+    color: blue;
+  }
+}
